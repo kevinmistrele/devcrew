@@ -1,0 +1,22 @@
+<svg width="640" height="140" viewBox="0 0 640 140" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="140" y2="140" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#0d9488"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="140" height="140" rx="32" fill="#18181b"/>
+
+  <g stroke="url(#accent)" stroke-width="7" stroke-linecap="round" fill="none" opacity="0.95">
+    <line x1="70" y1="38" x2="46" y2="86"/>
+    <line x1="70" y1="38" x2="94" y2="86"/>
+    <line x1="46" y1="86" x2="94" y2="86"/>
+  </g>
+
+  <circle cx="70" cy="38" r="12" fill="url(#accent)"/>
+  <circle cx="46" cy="86" r="12" fill="#8b5cf6"/>
+  <circle cx="94" cy="86" r="12" fill="#0d9488"/>
+
+  <text x="172" y="90" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="700" fill="#e4e4e7">DevCrew</text>
+</svg>

@@ -12,6 +12,7 @@
 
   <rect width="1024" height="1024" rx="224" fill="url(#bg)"/>
 
+  <!-- três funcionários conectados (equipe), acionados a partir de um só nó -->
   <g stroke="url(#accent)" stroke-width="24" stroke-linecap="round" fill="none" opacity="0.95">
     <line x1="512" y1="308" x2="340" y2="628"/>
     <line x1="512" y1="308" x2="684" y2="628"/>

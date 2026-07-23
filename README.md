@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🧑‍💻 DevCrew
+<img src="docs/assets/logo.svg" alt="DevCrew" width="360" />
 
 ### Monte uma equipe de funcionários de IA que trabalha de verdade nos seus repositórios Git
 
@@ -39,13 +39,13 @@ segurança. Nada disso é simulado: é git de verdade, PRs de verdade, e a decis
 
 | Board (Kanban) | Diff Viewer |
 |---|---|
-| ![Board Kanban — placeholder](docs/assets/screenshot-board.png) | ![Diff aprovar/rejeitar — placeholder](docs/assets/screenshot-diff.png) |
+| ![Board Kanban](docs/assets/screenshot-board.png) | ![Diff aprovar/rejeitar](docs/assets/screenshot-diff.png) |
 
 | Terminal ao vivo | Dashboard de Custos |
 |---|---|
-| ![Terminal por funcionário — placeholder](docs/assets/screenshot-terminal.png) | ![Dashboard de custo/uso — placeholder](docs/assets/screenshot-custos.png) |
+| ![Terminal por funcionário](docs/assets/screenshot-terminal.png) | ![Dashboard de custo/uso](docs/assets/screenshot-custos.png) |
 
-*(placeholders — screenshots e GIFs reais entram aqui em `docs/assets/`)*
+*(capturas do app rodando com dados de demonstração — GIFs de fluxo completo ficam para uma próxima atualização)*
 
 </div>
 
