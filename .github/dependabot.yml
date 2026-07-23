@@ -1,0 +1,22 @@
+version: 2
+updates:
+  # Dependências do frontend (package.json)
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+
+  # Dependências do backend Rust (src-tauri/Cargo.toml)
+  - package-ecosystem: "cargo"
+    directory: "/src-tauri"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+
+  # As próprias Actions usadas em .github/workflows — mantém as versões pinadas em dia
+  # sem perder o pin (o Dependabot abre PR pra cada atualização, nunca move sozinho).
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"

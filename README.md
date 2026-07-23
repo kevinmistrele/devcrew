@@ -7,6 +7,8 @@
 *App desktop (Tauri + React + Rust) onde agentes especializados leem código real, propõem mudanças reais,
 abrem Pull Requests reais no GitHub e se revisam entre si — sempre com você no controle.*
 
+[![CI](https://github.com/kevinmistrele/devcrew/actions/workflows/ci.yml/badge.svg)](https://github.com/kevinmistrele/devcrew/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Tauri](https://img.shields.io/badge/Tauri-2-24C8DB?logo=tauri&logoColor=white)](https://v2.tauri.app)
 [![React](https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white)](https://react.dev)
 [![TypeScript](https://img.shields.io/badge/TypeScript-6-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
@@ -208,4 +210,4 @@ este README (Fase 4). Detalhes em [`docs/03-roadmap.md`](docs/03-roadmap.md).
 
 ## Licença
 
-Ainda não definida.
+[MIT](LICENSE).
