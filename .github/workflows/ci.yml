@@ -23,7 +23,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -45,7 +45,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # Tauri v2 linka com WebKitGTK/GTK no Linux mesmo só pra "cargo check".
       # libayatana-appindicator3-dev substitui libappindicator3-dev no Ubuntu atual — os
