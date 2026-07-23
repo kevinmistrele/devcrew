@@ -48,12 +48,13 @@ jobs:
         uses: actions/checkout@v4
 
       # Tauri v2 linka com WebKitGTK/GTK no Linux mesmo só pra "cargo check".
+      # libayatana-appindicator3-dev substitui libappindicator3-dev no Ubuntu atual — os
+      # dois conflitam entre si, então só um pode ser instalado.
       - name: Install Tauri Linux dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y \
             libwebkit2gtk-4.1-dev \
-            libappindicator3-dev \
             librsvg2-dev \
             libayatana-appindicator3-dev \
             libgtk-3-dev \
